@@ -6,10 +6,13 @@
     "dev": "vite",
     "start": "vite preview"
   },
+  "devDependencies": {
+    "svelte": "^3.0.0"
+  },
   "dependencies": {
-    "@svitejs/vite-plugin-svelte": "^0.11.1",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "bulma": "^0.9.3",
-    "svelte": "^3.0.0",
     "svelte-spa-router": "^3.0.4",
     "vite": "^2.6.14"
   }

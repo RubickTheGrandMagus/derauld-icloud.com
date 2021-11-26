@@ -1,11 +1,13 @@
 <script>
+	import Calculator from "../modules/Calculator.svelte"
 	import Footer from "../modules/Footer.svelte"
 </script>
 
 <div class="container">	
 	<div class="content">
-		<h1 class="notification is-size-1">BFP 7 - Retirement Benefits Unit</h1>
-		> 
+		<h1>Retirement and Benefits Calculator</h1>
+
+		<Calculator/>
 	</div>
 	<Footer></Footer>
 </div>
