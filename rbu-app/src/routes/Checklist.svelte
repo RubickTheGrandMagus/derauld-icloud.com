@@ -3,6 +3,7 @@
 	import Header from "../modules/Header.svelte"
 	import Announcement from "../modules/Announcement.svelte";
     import Gratuity from "../modules/checklist/Gratuity.svelte";
+    import Terminal from "../modules/checklist/Terminal.svelte";
 
     let search = ''
 	let options = ['Gratuity','Terminal','Death Benefits [DSC]','Special Financial Assistance [DSC]','TPPD Benefits [TPPD]','Special Financial Assistance [TPPD]','Optional Retirement Application','BFP Special Project Fund']
@@ -22,6 +23,8 @@
         </datalist>
         {#if search=='Gratuity'}
             <Gratuity></Gratuity>
+        {:else if search=='Terminal'}
+            <Terminal></Terminal>
         {/if}
 
 	</div>
